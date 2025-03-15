@@ -1,7 +1,7 @@
 # Flatness Improves Backbone Generalisation in Few-shot Classification
 
-Implementation for the following paper:
-Rui Li, Martin Trapp, Marcus Klasson, and Arno Solin (2025). **[Flatness Improves Backbone Generalisation in Few-shot Classification](https://arxiv.org/pdf/2404.07696)**. In *Winter Conference on Applications of Computer Vision (WACV)*
+A reference implementation for the methods in the following paper:
+> Rui Li, Martin Trapp, Marcus Klasson, and Arno Solin (2025). **[Flatness Improves Backbone Generalisation in Few-shot Classification](https://arxiv.org/pdf/2404.07696)**. In *Winter Conference on Applications of Computer Vision (WACV)*.
 
 We introduce a simple yet effective training protocol for the backbone in few-shot classification. We show that flatness-aware backbone training combined with vanilla fine-tuning results in a simpler yet competitive baseline compared to the state-of-the-art. We present theoretical and empirical results indicating that careful backbone training is crucial in FSC.
 
@@ -23,6 +23,10 @@ This code requires the following:
     * Save the trained backbones in `saved_model/sam/{dataset}.pth` or change line 22.
     * Change line 12 to load `MetaDatasetEpisodeReader`.
 
-## Acknowledge
+## Acknowledgements
 
 We thank authors of [Meta-Dataset](https://github.com/google-research/meta-dataset), [PARC](https://github.com/dbolya/parc), [SAM](https://github.com/davda54/sam) and [SUR](https://github.com/dvornikita/SUR) for their source code.
+
+## License
+
+This software is provided under the MIT license. See the accompanying [LICENSE](LICENSE) file for details.
